@@ -1,0 +1,11 @@
+//components
+@import "../components/select-dropdown/selectDropdown";
+@import "../components/custom-table/customTable";
+@import "../components/modal/modal";
+@import "../components/card/card";
+
+//pages
+@import "../components/appbar/appbar";
+@import "../pages/login/login";
+@import "../pages/login/signup/signup";
+@import "../pages/jobs/adminJobList.scss";

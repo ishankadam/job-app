@@ -1,0 +1,80 @@
+.jobs-header {
+  display: flex;
+  justify-content: space-between; // Space between title and button
+  align-items: center; // Center vertically
+  margin-top: 10px; // Adjust top margin as needed
+
+  .create-button {
+    margin-right: 0; // Remove any margin if not needed
+    button {
+      padding: 6px 16px; // Adjust button padding as needed
+      background-color: #1976d2; // Primary color
+      color: white;
+      &:hover {
+        background-color: #1565c0; // Darker shade on hover
+      }
+    }
+  }
+}
+
+.jobs-table {
+  margin-top: 20px; // Adjust top margin as needed
+}
+
+.circular-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-list-title {
+  font-weight: bold;
+  color: #444;
+  margin: 0; // Remove margin if not needed
+  text-align: center; // Center align the title text
+}
+
+.Job-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; // Space between title and filter-wrapper
+  align-items: center; // Center align items vertically
+  padding: 20px; // Padding around the container
+  max-width: 100%; // Ensure it doesn't stretch too wide
+  margin: 0 auto; // Center the container horizontally
+}
+
+.title-wrapper {
+  flex: 1; // Allow title-wrapper to grow and take space
+  display: flex;
+  justify-content: center; // Center title within the wrapper
+}
+
+.filter-wrapper {
+  display: flex;
+  flex-direction: row; // Stack filters vertically
+  align-items: center;
+  width: 80%; // Adjust width as needed
+  gap: 16px; // Space between filter components
+}
+
+.filter-dropdown {
+  width: 100%; // Ensure dropdowns take full width of their container
+  margin: 0 !important;
+}
+
+.disable-arrow {
+  .MuiSelect-icon {
+    display: none; // Hide the default arrow
+  }
+}
+
+.MuiTextField-root,
+.MuiSelect-root {
+  margin: 0; // Remove margin if not needed
+  max-width: 100%; // Allow form controls to take full width
+}
+
+.MuiFormControl-root {
+  width: 100%; // Ensure form controls take up full width
+}

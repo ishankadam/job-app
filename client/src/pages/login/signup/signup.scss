@@ -1,0 +1,28 @@
+.signup-container {
+  display: flex;
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+  margin-bottom: 20px;
+}
+
+.signup-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Space between elements (adjust as needed) */
+  width: 100%;
+  max-width: 400px; /* Adjust max width based on design needs */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Space between form fields */
+}
+
+.signup-typography {
+  text-align: center;
+}
+
+.signup-button {
+  margin-top: 24px; /* Space above the button */
+}
