@@ -4,5 +4,6 @@ Step to run the application
 3. Run npm i command
 4. Run npm start
 5. Open server folder
-6. Run npm i command
-7. Run nodemon databaseConnection.js
+6. Open new terminal
+7. Run npm i command
+8. Run nodemon databaseConnection.js
